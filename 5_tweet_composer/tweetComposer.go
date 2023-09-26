@@ -20,13 +20,6 @@ const outOfBand = "oob"
 
 var config oauth1.Config
 
-type Credentials struct {
-	ConsumerKey       string
-	ConsumerSecret    string
-	AccessToken       string
-	AccessTokenSecret string
-}
-
 func main() {
 	args := os.Args
 
