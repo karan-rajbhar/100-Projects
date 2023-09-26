@@ -8,7 +8,6 @@ import (
 )
 
 func main() {
-	// Make the HTTP GET request
 	args := os.Args
 
 	if len(args) < 2 {
@@ -17,6 +16,8 @@ func main() {
 	}
 
 	URL := args[1]
+
+	// Make the HTTP GET request
 	resp, err := http.Get(URL)
 	if err != nil {
 		fmt.Println("Error making HTTP request:", err)
