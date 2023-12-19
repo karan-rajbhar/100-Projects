@@ -1,4 +1,3 @@
-# Ignore Go binary files
 # Ignore all binary files
 *
 !/**/
