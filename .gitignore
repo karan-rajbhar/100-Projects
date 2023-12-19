@@ -1,0 +1,11 @@
+# Ignore Go binary files
+# Ignore all binary files
+*
+!/**/
+!*.*
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+/test
