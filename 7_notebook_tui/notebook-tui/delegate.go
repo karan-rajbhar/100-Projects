@@ -13,7 +13,8 @@ func newItemDelegate(keys *delegateKeyMap) list.DefaultDelegate {
 		var title string
 
 		if i, ok := m.SelectedItem().(item); ok {
-			title = i.Title()
+			print(i.GetTitle())
+			title = i.GetTitle()
 		} else {
 			return nil
 		}
