@@ -1,0 +1,26 @@
+{
+    "!" : {
+        "value" : "<strong>",
+        "end" : true
+    },
+    "~" : {
+        "value" : "<em>",
+        "end" : true
+    },
+    "*" : {
+        "value" : "<ul><li>",
+        "end" : false
+    },
+    ")": {
+        "value" : "<ol><li>",
+        "end" : false
+    },
+    "^": {
+        "value" : "<a>",
+        "end" : false
+    },
+    "{": {
+        "value" : "url",
+        "end" : true
+    }
+}

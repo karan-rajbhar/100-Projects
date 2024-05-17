@@ -1,0 +1,14 @@
+Hi, my name is Brett. Brettdown is my new minimal language for writing. !Bold! and ~italic~ are both quite nice.
+
+Content can be lists:
+
+* Twin Peaks
+* X-Files
+
+You can even add order, like my favorite fruits:
+
+1) Apples
+2) Dates
+3) Blueberries
+
+Links look like this: ^My Website{https://example.com}
